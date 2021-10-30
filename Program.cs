@@ -22,7 +22,7 @@ namespace CalculoIMC
             {
                 Console.WriteLine("Diagnóstico: Muito abaixo do peso\n");
             }
-            else if (imc == 17 || imc <= 18.49 )
+            else if (imc <= 18.49 )
             {
                 Console.WriteLine("Diagnóstico: Abaixo do peso\n");
             }
